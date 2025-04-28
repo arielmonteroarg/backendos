@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "title": "Bateria Digital",
+    "description": "Bateria tipo Digital",
+    "code": "BT045",
+    "price": 34000,
+    "status": true,
+    "stock": 10,
+    "category": "instrumentos",
+    "thumbnails": [
+      "img/batadigital1.png"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "otro",
+    "description": "dato",
+    "code": "232",
+    "price": "3232",
+    "stock": "3",
+    "category": "asljkdh",
+    "thumbnails": [
+      "img/askdjh.png"
+    ],
+    "status": true
+  }
+]
