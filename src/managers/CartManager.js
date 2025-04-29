@@ -1,9 +1,16 @@
-import fs from 'fs/promises';
-import path from 'path';
+import fs from "fs/promises";
+import path from "path";
+import { fileURLToPath } from "url";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+// Ruta absoluta a cart.json en src/data
+const dataPath = path.join(__dirname, '..', 'data', 'cart.json');
 
 export default class CartManager {
-  constructor(filePath) {
-    this.path = path.resolve(filePath);
+  constructor() {
+    this.path = dataPath;
   }
 
   async getCarts() {

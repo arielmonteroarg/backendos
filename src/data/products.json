@@ -14,19 +14,6 @@
     ]
   },
   {
-    "id": 2,
-    "title": "Guitarra Eléctrica",
-    "description": "Guitarra tipo Stratocaster",
-    "code": "GT001",
-    "price": 1500,
-    "status": true,
-    "stock": 10,
-    "category": "instrumentos",
-    "thumbnails": [
-      "img/guitarra1.png"
-    ]
-  },
-  {
     "id": 3,
     "title": "Guitarra Criolla",
     "description": "Guitarra tipo Stratocaster",
@@ -51,5 +38,18 @@
     "thumbnails": [
       "img/batadigital1.png"
     ]
+  },
+  {
+    "id": 5,
+    "title": "mouse Inalambrico",
+    "description": "tecnologia",
+    "code": "334GH",
+    "price": "40000",
+    "stock": "100",
+    "category": "perifericos",
+    "thumbnails": [
+      "img/mouse.img"
+    ],
+    "status": true
   }
 ]

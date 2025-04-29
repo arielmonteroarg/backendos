@@ -1,9 +1,16 @@
 import fs from "fs/promises";
 import path from "path";
+import { fileURLToPath } from "url";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+// Ruta absoluta a products.json en src/data
+const dataPath = path.join(__dirname, '..', 'data', 'products.json');
 
 class ProductManager {
-  constructor(filename) {
-    this.filePath = path.resolve(filename);
+  constructor() {
+    this.filePath = dataPath;
   }
 
   async getProducts() {
